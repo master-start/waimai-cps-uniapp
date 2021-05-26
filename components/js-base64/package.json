@@ -1,0 +1,64 @@
+{
+  "_from": "js-base64",
+  "_id": "js-base64@3.5.2",
+  "_inBundle": false,
+  "_integrity": "sha512-VG2qfvV5rEQIVxq9UmAVyWIaOdZGt9M16BLu8vFkyWyhv709Hyg4nKUb5T+Ru+HmAr9RHdF+kQDKAhbJlcdKeQ==",
+  "_location": "/js-base64",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "js-base64",
+    "name": "js-base64",
+    "escapedName": "js-base64",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/js-base64/-/js-base64-3.5.2.tgz",
+  "_shasum": "3cc800e4f10812b55fb5ec53e7cabaef35dc6d3c",
+  "_spec": "js-base64",
+  "_where": "E:\\work\\alumni",
+  "author": {
+    "name": "Dan Kogai"
+  },
+  "bugs": {
+    "url": "https://github.com/dankogai/js-base64/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Yet another Base64 transcoder in pure-JS",
+  "devDependencies": {
+    "@types/node": "^14.0.26",
+    "esm": "^3.2.25",
+    "mocha": "^8.0.0",
+    "typescript": "^3.9.7"
+  },
+  "files": [
+    "base64.js",
+    "base64.mjs",
+    "base64.d.ts"
+  ],
+  "homepage": "https://github.com/dankogai/js-base64#readme",
+  "keywords": [
+    "base64",
+    "binary"
+  ],
+  "license": "BSD-3-Clause",
+  "main": "base64.js",
+  "module": "base64.mjs",
+  "name": "js-base64",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dankogai/js-base64.git"
+  },
+  "scripts": {
+    "test": "make clean && make test"
+  },
+  "types": "base64.d.ts",
+  "version": "3.5.2"
+}

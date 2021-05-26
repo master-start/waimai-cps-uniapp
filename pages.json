@@ -1,0 +1,125 @@
+{
+	"easycom": {
+		// 下载安装的方式需要前面的"@/"，npm安装的方式无需"@/"
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+				// "navigationBarTitleText": "外卖很忙"
+			}
+		},
+		{
+			"path": "pages/index/child1",
+			"style": {
+				"navigationBarTitleText": "肯德基怎样吃便宜"
+			}
+		},
+		{
+			"path": "pages/index/child2",
+			"style": {
+				"navigationBarTitleText": "奈雪隐藏优惠"
+			}
+		},
+		{
+			"path": "pages/ele/ele",
+			"style": {
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
+		},
+		{
+			"path": "pages/meituan/meituan",
+			"style": {
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
+		},
+		{
+			"path": "pages/wallet/wallet",
+			"style": {
+				"navigationBarTitleText": "我的钱包"
+			}
+		},
+		{
+			"path": "pages/user/binding",
+			"style": {
+				"navigationBarTitleText": "账号绑定"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationStyle": "custom" // 隐藏系统导航栏，
+
+			}
+		},
+		{
+			"path": "pages/user/order",
+			"style": {
+				"enablePullDownRefresh":true,
+				"navigationBarTitleText": "我的订单"
+			}
+		}, 
+		{
+			"path": "pages/user/team",
+			"style": {
+				"navigationBarTitleText": "我的团队"
+			}
+		}
+	    ,{
+            "path" : "pages/index/url/url",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "红包优惠券天天领",
+		// "navigationBarBackgroundColor": "#f4c242",
+		"navigationBarBackgroundColor": "#F33F5C",
+		"backgroundColor": "#FFFFFF",
+		"titleView": false,
+		"h5": {
+			"titleNView": false
+		}
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"color": "#333333",
+		"fontSize": "24upx",
+		"selectedColor": "#000",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/home.png",
+				"selectedIconPath": "static/home-active.png"
+			},{
+				"pagePath": "pages/ele/ele",
+				"text": "饿了么",
+				"iconPath": "static/ele.png",
+				"selectedIconPath": "static/ele-active.png"
+			},{
+				"pagePath": "pages/meituan/meituan",
+				"text": "美团",
+				"iconPath": "static/meituan.png",
+				"selectedIconPath": "static/meituan-active.png"
+			},{
+				"pagePath": "pages/user/user",
+				"text": "个人中心",
+				"iconPath": "static/my.png",
+				"selectedIconPath": "static/my-active.png"
+			}
+		]
+
+	}
+}

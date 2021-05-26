@@ -1,0 +1,146 @@
+<template>
+	<view class="child">
+		<text>
+			<text class="boldccc">怎样用最少的钱，吃到KFC?
+				1，肯德基APP</text>
+			如果你是第一次登陆
+			<text class="boldccc">任意消费后，能免费得到一杯拿铁</text>
+			免费送的，不拿白不拿啊~
+		</text>
+		<image src="https://waimai.ilanchong.cn/static/child/1/1.jpg" mode="widthFix"></image>
+		
+		<text>
+			除了免费咖啡，还有皮蛋瘦肉粥
+			只能选一样，你可以根据自己喜欢去选择
+			<text class="boldccc">优惠券就在“我的卡包”里
+				自领券日起，7日内有效</text>
+		</text>
+		<image src="https://waimai.ilanchong.cn/static/child/1/2.jpg" mode="widthFix"></image>
+		
+		<text>
+			<text class="boldccc">连续签到7天，吃免费葡挞</text>
+			泊这个活动每个月都不同的
+			下次就可能换成咖啡了
+		</text>
+		<image src="https://waimai.ilanchong.cn/static/child/1/3.jpg" mode="widthFix"></image>
+		
+		<text>
+			记得平时多积累K金
+			消费时出示你的会员码即可
+			<text class="boldccc">每消费1元可以获得100K金</text>
+			APP上，还可兑换土豆泥，鸡块、薯条呢
+		</text>
+		<image src="https://waimai.ilanchong.cn/static/child/1/4.jpg" mode="widthFix"></image>
+		
+		<text>
+			<text class="boldccc">2,万能的淘宝</text>
+			<text class="boldccc">①搜索关键词:肯德基优惠券</text>
+			(藏在很下面，要手指不断往下翻)
+			某宝有多便宜?
+			原价7.5元1只的葡挞
+			5.5元就可以买到2个
+		</text>
+		<image src="https://waimai.ilanchong.cn/static/child/1/5.jpg" mode="widthFix"></image>
+		
+		<text>
+			有多少吃货着迷于
+			KFC的蛋挞不能自拔的?
+			我就是其中一一个!
+			<text class="boldccc">
+				简直就是良心之作啊，奶味浓香
+				还蛋液嫩滑，蛋挞亮酥脆得心都要化了
+			</text>
+		</text>
+		<image src="https://waimai.ilanchong.cn/static/child/1/6.jpg" mode="widthFix"></image>
+		
+		<text>
+			使用方法很简单
+			下单后，商家会秒回你链接
+			<text class="boldccc">
+				凭着条形码到店即可，仅限当天使用哦
+			</text>
+		</text>
+		<image src="https://waimai.ilanchong.cn/static/child/1/7.jpg" mode="widthFix"></image>
+		
+		<text>
+			同样的，还有4.5元吃早餐大法
+			[冬菇滑鸡粥+太阳蛋]
+			<text class="boldccc">
+				②搜索关键词:肯德基宅急送免运费
+			</text>
+			(藏在很下面，需要手指不断往下翻)
+			
+			宅急送的运费高达9元
+			但在某宝上，只要1元拍下
+			<text class="boldccc">
+				就能得到一个免运费的代码
+			</text>
+		</text>
+		<image src="https://waimai.ilanchong.cn/static/child/1/8.jpg" mode="widthFix"></image>
+		
+		<text>下单时输入代码即可使用</text>
+		<image src="https://waimai.ilanchong.cn/static/child/1/9.jpg" mode="widthFix"></image>
+		
+
+
+		<text>
+			<text class="boldccc">
+				③搜索关键词:肯德基50元代金券
+			</text>
+			
+			40元就能买到50元代金券
+			如果刚好买到50元的商品，<text class="boldccc">相当于打个8折</text>
+			同样的，15元能买到20元代金券
+		</text>
+		<image src="https://waimai.ilanchong.cn/static/child/1/10.jpg" mode="widthFix"></image>
+		
+
+		<text>
+			<text class="boldccc">
+				3,隐藏秘密的原味鸡
+			</text>
+			
+			KFC的原味鸡主要有4个部位
+			鸡胸、鸡腿、膀肋、鸡翅
+			不喜欢吃鸡胸肉?
+			
+			<text class="boldccc">和店员说明即可,都会帮你换过来</text>
+			才不要花钱吃自己不喜欢的肉呀~
+		</text>
+		<image src="https://waimai.ilanchong.cn/static/child/1/11.jpg" mode="widthFix"></image>
+		
+
+		<text>
+			吃鸡腿肉就是爽
+			那个汁呀，都在嘴里
+			都是嫩嫩的肉~
+		</text>
+		<image src="https://waimai.ilanchong.cn/static/child/1/11.jpg" mode="widthFix"></image>
+		
+		<text>
+			都get到了吗? 484很简单~
+			主动开口的孩纸，才配有最好吃的肉
+		</text>
+	</view>
+</template>
+
+<script>
+</script>
+
+<style lang="scss" scoped>
+	.child {
+		font-size: 32rpx;
+		line-height: 60rpx;
+		padding:50rpx 12rpx;
+
+		.boldccc {
+			display: block;
+			font-weight: bold;
+			color: #626262;
+		}
+
+		image {
+			width: 100%;
+		}
+	}
+</style>

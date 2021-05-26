@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/child1",
+    "pages/index/child2",
+    "pages/ele/ele",
+    "pages/meituan/meituan",
+    "pages/wallet/wallet",
+    "pages/user/binding",
+    "pages/user/user",
+    "pages/user/order",
+    "pages/user/team",
+    "pages/index/url/url"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "红包优惠券天天领",
+    "navigationBarBackgroundColor": "#F33F5C",
+    "backgroundColor": "#FFFFFF",
+    "titleView": false
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "color": "#333333",
+    "fontSize": "24upx",
+    "selectedColor": "#000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home-active.png"
+      },
+      {
+        "pagePath": "pages/ele/ele",
+        "text": "饿了么",
+        "iconPath": "static/ele.png",
+        "selectedIconPath": "static/ele-active.png"
+      },
+      {
+        "pagePath": "pages/meituan/meituan",
+        "text": "美团",
+        "iconPath": "static/meituan.png",
+        "selectedIconPath": "static/meituan-active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "个人中心",
+        "iconPath": "static/my.png",
+        "selectedIconPath": "static/my-active.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

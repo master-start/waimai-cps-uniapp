@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.wallet.data-v-dd5e78b4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  height: calc(100vh - 0px);
+  width: 100%;
+  background-color: #F2F2F2;
+}
+.wallet .tabs-box1.data-v-dd5e78b4 {
+  position: fixed;
+  top: 0px;
+  width: 750rpx;
+  color: #303133;
+  z-index: 99;
+  background-color: #fff;
+}
+.page-box.data-v-dd5e78b4 {
+  text-align: center;
+  padding-top: 200rpx;
+  margin: 0 auto;
+  font-size: 32rpx;
+  height: calc(100vh - 0px - 5px - 40px);
+}
+.recode_page-box.data-v-dd5e78b4 {
+  text-align: center;
+  padding-top: 200rpx;
+  margin: 0 auto;
+  font-size: 32rpx;
+  min-height: calc(100vh - 0px - 640rpx);
+}
+.content-title.data-v-dd5e78b4 {
+  line-height: 80rpx;
+  font-size: 24rpx;
+  text-align: center;
+}
+.content_top.data-v-dd5e78b4 {
+  padding: 20rpx 0;
+  text-align: center;
+  background-color: #F2F2F2;
+  color: #303133;
+}
+.recordlist.data-v-dd5e78b4 {
+  margin-top: 40px;
+  background-color: #fff;
+}
+.wt_list.data-v-dd5e78b4 {
+  min-height: calc(100vh - 0px - 10rpx - 160rpx - 40rpx);
+}
+.wt_list .wt_item.data-v-dd5e78b4 {
+  border-bottom: 1px solid rgba(204, 204, 204, 0.3);
+  padding: 16rpx 20rpx;
+  text-align: center;
+  text-align: left;
+  line-height: 44rpx;
+  color: #ccc;
+}
+.wt_list .wt_item .time.data-v-dd5e78b4 {
+  line-height: 50rpx;
+  text-align: center;
+  width: 130rpx;
+  margin-right: 20rpx;
+  border-right: solid 1px rgba(204, 204, 204, 0.3);
+}
+.g.data-v-dd5e78b4 {
+  color: #f29100;
+}
+.o.data-v-dd5e78b4 {
+  color: #4dc891;
+}
+.awal.data-v-dd5e78b4 {
+  margin-top: 50px;
+}
+.awal .awal_top.data-v-dd5e78b4 {
+  background-color: #fff;
+  margin-bottom: 30rpx;
+  height: 306rpx;
+}
+.awal .awal_top .int.data-v-dd5e78b4 {
+  font-size: 28rpx;
+  color: #888;
+  padding: 20rpx 0;
+  border-bottom: 1px solid rgba(192, 192, 192, 0.7);
+}
+.awal .awal_top .inter.data-v-dd5e78b4 {
+  font-size: 26rpx;
+  color: #ccc;
+}
+.awal .awal_top .out.data-v-dd5e78b4 {
+  width: 100%;
+  margin-top: 30rpx;
+  line-height: 70rpx;
+  text-align: center;
+  color: #fff;
+  background-color: #f4c242;
+}
+.awal .awal_bom.data-v-dd5e78b4 {
+  background-color: #fff;
+  padding: 0 40rpx 30rpx;
+}
+.awal .awal_bom .title.data-v-dd5e78b4 {
+  color: #b69031;
+  text-align: center;
+  line-height: 80rpx;
+  border-bottom: 1px solid rgba(192, 192, 192, 0.7);
+}
+.awal .awal_bom .awcontent.data-v-dd5e78b4 {
+  margin-top: 20rpx;
+  line-height: 50rpx;
+}
+
